@@ -1,5 +1,4 @@
 # App
-
 GymPass style app.
 
 ## Requisitos Funcionais
