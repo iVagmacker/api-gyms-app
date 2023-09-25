@@ -13,9 +13,9 @@ jobs:
       ports: 
         - 5432:5432
       env:
-        - POSTGRESQL_USERNAME=docker
-        - POSTGRESQL_PASSWORD=docker
-        - POSTGRESQL_DATABASE=ignitesolid
+        POSTGRESQL_USERNAME:docker
+        POSTGRESQL_PASSWORD:docker
+        POSTGRESQL_DATABASE:ignitesolid
 
     steps: 
       - uses: actions/checkout@v3
